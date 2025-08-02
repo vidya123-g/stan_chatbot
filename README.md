@@ -33,6 +33,20 @@ This is my submission for the **STAN Internship Challenge (Conversational AI Tra
 - Injects memory + chat history into prompt
 
 ---
+##  Screenshots
+
+### Chatbot UI
+![Chatbot UI](screenshots/chatbot_output.png)
+
+###  Running in Terminal
+![Terminal](screenshots/running_terminal.png)
+
+###  Folder Structure
+![Structure](screenshots/folder_structure.png)
+
+### Chatbot Working Example
+![Chatbot Working](screenshots/chatbot_working.png)
+
 
 ##  How to Run Locally
 

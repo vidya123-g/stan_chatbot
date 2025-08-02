@@ -1,13 +1,14 @@
 import requests
 import os
+from dotenv import load_dotenv
 
-# Put your OpenRouter API key here
-OPENROUTER_API_KEY = "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"  # ← replace with your real key
+load_dotenv()
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 def generate_reply(prompt: str) -> str:
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-        "HTTP-Referer": "https://openrouter.ai",  # Required
+        "HTTP-Referer": "https://openrouter.ai",
         "Content-Type": "application/json"
     }
 
